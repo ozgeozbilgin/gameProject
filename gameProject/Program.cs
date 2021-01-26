@@ -85,7 +85,7 @@ namespace gameProject
                 else if (seçim == 7)
                 {
                     Console.WriteLine("**********KAMPANYALAR**********");
-                    Console.WriteLine("1- Duygu Kampanyası" + "  " + "2-Fatih Kampanası" + "  " + "3-Ana Menüye Dön");
+                    Console.WriteLine("1- kampanya1" + "  " + "2-kampanya2" + "  " + "3-Ana Menüye Dön");
                     Console.WriteLine("*******************************");
                     int secim2 = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();

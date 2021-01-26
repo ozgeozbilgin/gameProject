@@ -92,7 +92,7 @@ namespace gameProject
                     if (secim2 == 1)
                     {
                         oyunYoneticisi.OyunListesi();
-                        Console.WriteLine("Yukarıdaki oyunlardan öğrencisi kampanyası uygulamak istediğiniz oyunun adını yazınız:");
+                        Console.WriteLine("Yukarıdaki oyunlardan kampanya uygulamak istediğiniz oyunun adını yazınız:");
                         string isim = Console.ReadLine();
                         Console.Clear();
                         IKampanyaBilgi kampanya = new Kampanya1();
@@ -101,7 +101,7 @@ namespace gameProject
                     else if (secim2 == 2)
                     {
                         oyunYoneticisi.OyunListesi();
-                        Console.WriteLine("Yukarıdaki oyunlardan kara cuma kampanyası uygulamak istediğiniz oyunun adını yazınız:");
+                        Console.WriteLine("Yukarıdaki oyunlardan kampanya uygulamak istediğiniz oyunun adını yazınız:");
                         string isim = Console.ReadLine();
                         Console.Clear();
                         IKampanyaBilgi kampanya = new Kampanya2();
@@ -114,7 +114,7 @@ namespace gameProject
                 }
                 else
                 {
-                    Console.WriteLine("Programdan çıkış yaptınız.İyi günler...");
+                    Console.WriteLine("oyun çıkış");
                     break;
                 }
             }
